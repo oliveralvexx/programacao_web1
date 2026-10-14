@@ -7,5 +7,7 @@ let aluno = {
     idade: "20",
     curso: "desenvolvimento de sistemas",
 }
-console.log(aluno.nome)
+for (let chave in aluno){
+    console.log(`${chave}: ${aluno[chave]}`)
+}
 
